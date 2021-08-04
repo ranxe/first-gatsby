@@ -1,11 +1,12 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { container } from './layout.module.css'
+import { StaticImage } from "gatsby-plugin-image";
+import Layout from "./layout";
 
 // markup
 const IndexPage = () => {
   return (
-    <main>
+    <Layout pageTitle="Home Page">
       <title>Zero Page</title>
       <h1>First site with Gatsby!</h1>
       <nav>
@@ -15,7 +16,11 @@ const IndexPage = () => {
         </ul>
       </nav>
       <p>I'm making this by following the Gatsby Tutorial.</p>
-    </main>
+      <StaticImage
+        alt="A butterfly named 'WADO NABI'"
+        src="../images/gremlin.png"
+      />
+    </Layout>
   );
 };
 
