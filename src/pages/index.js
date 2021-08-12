@@ -12,7 +12,7 @@ const IndexPage = () => {
       <nav>
         <ul>
           <Link to="/about">About</Link>
-          <Link to="/react">React</Link>
+          <Link to="/material">Material-ui</Link>
         </ul>
       </nav>
       <p>I'm making this by following the Gatsby Tutorial.</p>
