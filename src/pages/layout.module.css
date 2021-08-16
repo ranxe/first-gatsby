@@ -1,6 +1,7 @@
 .container {
   margin: auto;
-  max-width: 500px;
+  /* max-width: 500px; */
+  text-align : center;
   font-family: sans-serif;
 }
 .heading {

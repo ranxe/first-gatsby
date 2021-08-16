@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
       <p>
-        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+        First blog wth gatsby tutorial.
       </p>
     </Layout>
   );
