@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
-import Layout from "./layout";
+import Layout from "../components/layout";
 
 // markup
 const IndexPage = () => {
@@ -12,7 +12,7 @@ const IndexPage = () => {
       <nav>
         <ul>
           <Link to="/about">About</Link>
-          <hr/>
+          <hr />
           <Link to="/material">Material-ui</Link>
         </ul>
       </nav>

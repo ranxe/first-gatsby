@@ -1,12 +1,10 @@
 import * as React from "react";
-import Layout from "./layout";
+import Layout from "../components/layout";
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <p>
-        First blog wth gatsby tutorial.
-      </p>
+      <p>First blog wth gatsby tutorial.</p>
     </Layout>
   );
 };
