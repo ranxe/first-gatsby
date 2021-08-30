@@ -3,6 +3,8 @@
   /* max-width: 500px; */
   text-align : center;
   font-family: sans-serif;
+  background-color :slategray;
+  padding : 20px;
 }
 .heading {
   color: rebeccapurple;
@@ -20,7 +22,7 @@
 }
 .site-title {
   font-size: 3rem;
-  color: gray;
+  color :thistle ;
   font-weight: 700;
   margin: 3rem 0;
 }

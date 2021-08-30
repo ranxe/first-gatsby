@@ -20,6 +20,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    "gatsby-plugin-mdx",
     // {
     // resolve: `gatsby-source-contentful`,
     // options: {
